@@ -27,8 +27,9 @@ header {
   padding: 10px;
   text-align: center;
   grid-area: 1/1/2/4;
-  background-image: url(./img/wave.gif);
-  background-position: center;
+  /* background-image: url(./img/wave.gif);
+  background-position: center; */
+  background-image: linear-gradient(#222, #eee);
 }
 @media (max-width: 678px) {
   header {
@@ -44,12 +45,12 @@ header > .avatar {
 header > h1 {
   margin: 10px 0;
   font-size: 14px;
-  color: #999;
+  color: #222;
 }
 header > p {
   margin: 10px 0;
   font-size: 14px;
-  color: #aaa;
+  color: #222;
 }
 main {
   grid-area: 2/2/3/3;
@@ -147,6 +148,7 @@ main section .detail {
 }
 .layout1 .detail {
   margin: 0;
+  padding: 0;
 }
 .layout1 .detail > li {
   display: grid;
