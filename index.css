@@ -27,7 +27,7 @@ header {
   padding: 10px;
   text-align: center;
   grid-area: 1/1/2/4;
-  background-image: url(/img/wave.gif);
+  background-image: url(./img/wave.gif);
   background-position: center;
 }
 @media (max-width: 678px) {
